@@ -10,7 +10,9 @@
 <div id="preloader" class="preloader"><img src="image_processing20190925-8316-1cqbcyf.gif"></div>
 <div class="content" id="content">
  <div id="lander">
-    <div id="nav">
+  
+    <div id="nav" onmouseenter="circlefollowup()" onmouseleave="mouseleft()">
+      <div id="mover"></div>
         <ul>
             <li>HOME</li>
             <li>CAFE-BIZZ</li>
@@ -20,25 +22,25 @@
         </ul>
     </div>
     
-    <div id="box">
+    <div id="box" style="display: flex;">
     <!-- <h3>Hey There</h3>
     <h2>I'm the brewed melody, your heart dances to</h2>
     <h3 >I am better known as</h3> -->
    
-
-<div class="animated-title">
-    <div class="text-top">
+<img id="imig" src="./images/hand-drawn-people-with-hot-drinks_52683-71825.avif"  >
+<div class="animated-title" style="">
+    <div class="text-top" style=" z-index:9">
       <div>
-        <span>I'm the  </span>
-        <span>the Brewed melody </span>
-        <span>your Heart dances to</span>
+        <span style="color:black" >I'm the  </span>
+        <span style="color:black"> Brewed melody </span>
+        <span style="color:black">your Heart dances to</span>
       </div>
     </div>
     <div class="text-bottom">
       <div>I'm Coffee<br> <div id="button">Spill some</div></div>
     </div>
   </div>
-  <img id="imig" src="./images/4566566.png">
+
   
   
     <!-- <br><br><br><br><br>
@@ -53,7 +55,7 @@
 		<div class="slide">
 			
 		</div>
-		<div class="slide">
+		<div style="font-style: badscript;"class="slide">
     Rhythmic Brewery
 		</div>
 		<div class="slide">
@@ -94,13 +96,14 @@
 		</div>
 	</div>
 </div>
-<div id="secondpage">
+<!-- <div id="secondpage">
   <h1>Sip & Savour</h1>
   <h4>Let me paint your world</h4>
   <h4 id="dusra">Take a sip.</h4>
   <div class="cover"><button>know more</button></div>
   <!-- <img src="./images/smolmedlarge2.png"> -->
-</div>
+<!-- </div>  -->
+
 <div id="thirdpage">
   <div id="brandtitle"><h1>BR</h1><div class="overlap"><h4>EWING<BR>ANDS</h4></div></div>
     <div class="context">Crafting Success stories in every coffee cup</div>
